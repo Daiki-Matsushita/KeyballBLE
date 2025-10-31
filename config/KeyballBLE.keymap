@@ -78,10 +78,10 @@
 
         Up_Num {
             bindings = <
-&mt ESCAPE NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N4  &kp N5                                                    &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL
-&kp TAB              &trans        &trans        &trans  &kp NUMBER_6  &kp LC(LA(KP_NUMBER_0))      &kp DEL        &kp N7  &trans  &trans  &trans     &kp ENTER
-&kp LEFT_SHIFT       &trans        &trans        &trans  &trans        &trans                       &kp BACKSPACE  &trans  &trans  &trans  &trans     &kp RIGHT_SHIFT
-&kp LEFT_CONTROL     &kp LWIN      &kp LEFT_ALT  &trans  &trans        &trans                       &trans         &trans                             &kp RIGHT_CONTROL
+&mt ESCAPE NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N4  &kp N5                                   &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL
+&kp TAB              &trans        &trans        &trans  &kp NUMBER_6  &trans      &kp DEL        &kp N7  &trans  &trans  &trans     &kp ENTER
+&kp LEFT_SHIFT       &trans        &trans        &trans  &trans        &trans      &kp BACKSPACE  &trans  &trans  &trans  &trans     &kp RIGHT_SHIFT
+&kp LEFT_CONTROL     &kp LWIN      &kp LEFT_ALT  &trans  &trans        &trans      &trans         &trans                             &kp RIGHT_CONTROL
             >;
         };
 
