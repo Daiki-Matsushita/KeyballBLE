@@ -31,6 +31,13 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        switch_Jap_Eng: switch_Jap_Eng {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&switch_Jap_Eng>;
+            label = "SWITCH_JAP_ENG";
+        };
     };
 
     behaviors {
