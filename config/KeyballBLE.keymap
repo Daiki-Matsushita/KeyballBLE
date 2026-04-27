@@ -94,10 +94,10 @@
 
         L_Arr-R_Sym {
             bindings = <
-&kp ESCAPE        &trans          &kp UP_ARROW    &kp LC(SPACE)    &kp HOME                                      &kp INS    &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
-&kp TAB           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END     &kp BACKSPACE      &kp DEL        &trans     &trans     &kp SEMICOLON     &kp SQT            &kp ENTER
-&kp LEFT_SHIFT    &trans          &trans          &kp F2           &kp F7      &kp DEL            &kp BACKSPACE  &trans     &kt COMMA  &kp PERIOD        &kp SLASH          &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp LWIN        &kp LEFT_ALT    &kp TAB          &kp DELETE  &trans             &kp ENTER      &kp SPACE                                                  &kp RCTRL
+&kp ESCAPE        &trans          &kp UP_ARROW    &kp LC(SPACE)    &kp HOME                                      &kp INS    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp TAB           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END     &kp BACKSPACE      &kp DEL        &trans     &trans  &trans            &kp SEMICOLON      &kp SQT
+&kp LEFT_SHIFT    &trans          &trans          &kp F2           &kp F7      &kp DEL            &kp BACKSPACE  &trans     &trans  &kp COMMA         &kp PERIOD         &kp SLASH
+&kp LEFT_CONTROL  &kp LWIN        &kp LEFT_ALT    &kp TAB          &kp DELETE  &trans             &kp ENTER      &kp SPACE                                               &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
